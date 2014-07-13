@@ -2,5 +2,4 @@
     "env": { "GOPATH": "$HOME/go:$GS_GOPATH" },
     "use_gs_gopath": true,
     "autocomplete_builtins": true,
-    "fmt_cmd": ["goimports"]
 }
