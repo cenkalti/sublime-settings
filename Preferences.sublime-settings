@@ -6,7 +6,7 @@
 		"go/build",
 		"go/pkg"
 	],
-	"color_scheme": "Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Solarized (Light).tmTheme",
 	"drag_text": false,
 	"enable_tab_scrolling": false,
 	"ensure_newline_at_eof_on_save": true,
@@ -21,6 +21,7 @@
 	"fold_buttons": true,
 	"folder_exclude_patterns":
 	[
+		".srclib-cache",
 		".svn",
 		".git",
 		".hg",
