@@ -1,6 +1,5 @@
 {
-    "env": { "GOPATH": "$HOME/go:$GS_GOPATH" },
-    "use_gs_gopath": true,
+    "shell": ["/usr/local/bin/zsh", "--login", "-c", "$CMD"],
     "autocomplete_builtins": true,
-    "fmt_cmd": ["goimports"]
+    "fmt_cmd": ["goimports", "-srcdir", "$_dir"]
 }
